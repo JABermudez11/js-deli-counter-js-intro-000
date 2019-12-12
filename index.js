@@ -6,6 +6,9 @@ var katzDeliLine = [];
 function takeANumber(line, name){
   // put person in back of line
   var number = 0;
+  // name, push that to end of line
+    // give them number, number++
+  
   line.push(name);
   // welcome message
   return("Welcome, " + name + ". You are number " + line.length + ' in line.');
