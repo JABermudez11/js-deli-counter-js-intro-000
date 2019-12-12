@@ -11,7 +11,7 @@ function takeANumber(line, name){
   line.push(name);
   number++;
   // welcome message
-  return("Welcome, " + name + ". You are number " + line.length + ' in line.');
+  return("Welcome, " + name + ". You are ticket number " + number + ' in line.');
 }
 
 function nowServing(line){
