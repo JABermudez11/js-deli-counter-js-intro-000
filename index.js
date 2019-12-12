@@ -24,6 +24,7 @@ function currentLine(line){
   // best way to return line with name and num?
   var lineNameAndPlace = [];
 
+  // loop to give number with person
   for(let i = 0; i < line.length; i++){
     lineNameAndPlace.push(i+1 + '. ' + line[i]);
   }
