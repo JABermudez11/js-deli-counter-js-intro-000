@@ -3,7 +3,7 @@ var katzDeliLine = [];
 function takeANumber(line, name){
   // put person in back of line
   line.push(name);
-  // welcome msg
+  // welcome message
   return("Welcome, " + name + ". You are number " + line.length + ' in line.');
 }
 
