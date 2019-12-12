@@ -8,8 +8,8 @@ function takeANumber(line, name){
   var number = 0;
   // name, push that to end of line
     // give them number, number++
-  
   line.push(name);
+  number++;
   // welcome message
   return("Welcome, " + name + ". You are number " + line.length + ' in line.');
 }
