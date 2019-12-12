@@ -12,6 +12,7 @@ function nowServing(line){
   if(line.length === 0){
     return('There is nobody waiting to be served!');
   }
+  // shift returns name and removes first element
   return('Currently serving ' + line.shift() + '.');
 }
 
