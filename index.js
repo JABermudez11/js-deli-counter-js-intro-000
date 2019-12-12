@@ -33,5 +33,7 @@ function currentLine(line){
   return('The line is currently: ' + lineNameAndPlace.join(', '));
   */
 
-  
+  for(let i = 0; i < line.length; i++) {
+    return(i+1 + '. ' + line.shift() + ', ')
+  }
 }
