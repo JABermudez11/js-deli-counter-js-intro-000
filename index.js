@@ -21,7 +21,7 @@ function currentLine(line){
   if(line.length === 0){
     return('The line is currently empty.');
   }
-  // best way to return line with name and num?
+  // resulting array
   var lineNameAndPlace = [];
 
   // loop to give number with person
