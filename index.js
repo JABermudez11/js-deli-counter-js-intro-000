@@ -1,5 +1,8 @@
 var katzDeliLine = [];
 
+// when someone comes in, thats there number
+  // when next person comes in, they are number number+1
+// referencing the customer by their number
 function takeANumber(line, name){
   // put person in back of line
   line.push(name);
