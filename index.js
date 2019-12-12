@@ -34,6 +34,6 @@ function currentLine(line){
   */
 
   for(let i = 0; i < line.length; i++) {
-    return('The line is currently: 'i+1 + '. ' + line.shift() + ', ');
+    return('The line is currently: ' + i+1 + '. ' + line.shift() + ', ');
   }
 }
